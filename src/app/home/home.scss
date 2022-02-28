@@ -1,0 +1,17 @@
+
+.formGroup{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.formbox  div{
+    min-width: 240px;
+    margin: 10px;
+}
+
+.formGroup .formSubmit{
+    width: 40%;
+    margin: 0 auto;
+}
