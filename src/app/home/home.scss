@@ -5,8 +5,12 @@
     flex-wrap: wrap;
 
 }
+.formbox{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.formbox  div{
+.formbox > div{
     min-width: 240px;
     margin: 10px;
 }
@@ -14,4 +18,15 @@
 .formGroup .formSubmit{
     width: 40%;
     margin: 0 auto;
+}
+
+.formbox .errorText{
+    color :rgb(211, 47, 47);
+    text-align:center;
+}
+
+.outputEnergy{
+    color: green;
+    font-weight: bold;
+    font-size: 1.3em;
 }
